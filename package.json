@@ -1,0 +1,19 @@
+{
+	"name": "console-monkey",
+	"type": "module",
+	"description": "A discord bot",
+	"scripts": {
+		"build": "NODE_ENV=production node build.cjs",
+		"dev": "node build.cjs",
+		"start": "node dist/main.js"
+	},
+	"author": "Balázs Vadász <balazs@vadasz.xyz>",
+	"license": "AGPL-3.0-or-laterr",
+	"devDependencies": {
+		"esbuild": "^0.14.38"
+	},
+	"dependencies": {
+		"discord.js": "^13.6.0",
+		"dotenv": "^16.0.0"
+	}
+}
