@@ -42,7 +42,8 @@ client.on('voiceStateUpdate', async (old_state, new_state) => {
 			);
 			new_state.setChannel(channel);
 		}
-	} else if (old_state.channel) {
+	}
+	if (old_state.channel) {
 		let channel_left = old_state.channel;
 		if (channel_left.name.startsWith('lobby-')) {
 			if (channel_left.members.size == 0) {
