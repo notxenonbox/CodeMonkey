@@ -4,6 +4,7 @@ specifiers:
   discord.js: ^13.6.0
   dotenv: ^16.0.0
   esbuild: ^0.14.38
+  typescript: ^4.7.3
 
 dependencies:
   discord.js: 13.6.0
@@ -11,6 +12,7 @@ dependencies:
 
 devDependencies:
   esbuild: 0.14.38
+  typescript: 4.7.3
 
 packages:
 
@@ -363,6 +365,12 @@ packages:
   /tslib/2.4.0:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: false
+
+  /typescript/4.7.3:
+    resolution: {integrity: sha512-WOkT3XYvrpXx4vMMqlD+8R8R37fZkjyLGlxavMc4iB8lrl8L0DeTcHbYgw/v0N/z9wAFsgBhcsF0ruoySS22mA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
 
   /webidl-conversions/3.0.1:
     resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=}
