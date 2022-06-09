@@ -8,7 +8,7 @@
 		"start": "node dist/main.js"
 	},
 	"author": "Balázs Vadász <balazs@vadasz.xyz>",
-	"license": "AGPL-3.0-or-laterr",
+	"license": "AGPL-3.0-or-later",
 	"devDependencies": {
 		"esbuild": "^0.14.38"
 	},
