@@ -36,7 +36,7 @@ client.on('voiceStateUpdate', async (old_state, new_state) => {
 	if (new_state.channel) {
 		let channel_joinded = new_state.channel;
 		if (channel_joinded.name.endsWith('-maker')) {
-			let channel = await channel_joinded.parent.createChannel(
+			let channel = await channel_joinded.parent!.createChannel(
 				`lobby-${randomBytes(4).toString('hex')}`,
 				{ type: 'GUILD_VOICE' }
 			);
